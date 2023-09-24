@@ -1,10 +1,12 @@
-a = int(input(" Please Enter the First Value a: "))
-b = int(input(" Please Enter the Second Value b: "))
-
+#taking inputs fromm user
+a = int(input(" Please Enter the First Value : "))
+b = int(input(" Please Enter the Second Value : "))
+#initialising
 i = 1
+#looping till the hcf/gcd is found
 while(i <= a and i <= b):
     if(a % i == 0 and b % i == 0):
         val = i
     i = i + 1
-    
-print("\n HCF of {0} and {1} = {2}".format(a, b, val))
+#displaying the hcf/gcd   
+print(f'The HCF/GCD of {a} and {b} is {val}')

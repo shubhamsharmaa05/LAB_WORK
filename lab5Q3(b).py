@@ -1,10 +1,11 @@
-# Python Program to Print Mirrored Right Triangle Star Pattern
-
+#taking no of rows as input
 rows = int(input("Please Enter the Total Number of Rows  : "))
-
-print("Mirrored Right Triangle Star Pattern")
+#intializing
 i = 1
+#looping through the numbers till the entered number with help of while loop
 while(i <= rows):
+    #output
+    print(f'The pattern is as follows: \n')
     print(' ' * (rows - i) + '*' * i)
     i=i+1   
     
